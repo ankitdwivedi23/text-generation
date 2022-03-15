@@ -1,5 +1,4 @@
-"""
-Command-line arguments for setup.py, train.py, test.py.
+"""Command-line arguments for setup.py, train.py, test.py.
 """
 
 import argparse

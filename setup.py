@@ -1,7 +1,8 @@
 """
 Pre-process the text dataset.
 
-Code adapted from: https://github.com/michiyasunaga/squad/blob/main/setup.py
+Adapted from:
+    https://github.com/michiyasunaga/squad/blob/main/setup.py
 """
 import numpy as np
 import spacy
