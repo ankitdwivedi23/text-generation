@@ -26,6 +26,16 @@ def get_setup_args():
 
     return args
 
+def get_train_args():
+    """Get arguments needed in train.py"""
+
+    parser = argparse.ArgumentParser('Train a language model')
+    add_common_args(parser)
+    
+    args = parser.parse_args()
+
+    return args
+
 
 def add_common_args(parser):
 
